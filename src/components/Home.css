@@ -1,0 +1,28 @@
+.Home {
+    height: 100vh;
+    display : flex;
+    align-items : center;
+}
+
+.Intro {
+    font-size: calc(2px + 2vmin);
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.Indented, .Intro {
+    padding-left: calc(10px + 5vmin);
+}
+
+.DoubleIndented {
+    padding-left: calc(20px + 10vmin);
+}
+
+.IntroLink {
+    text-decoration: none; 
+    color: rgb(0, 0, 0);
+}
+
+.IntroLink:hover {
+    text-decoration: underline;
+}
