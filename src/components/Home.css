@@ -1,7 +1,14 @@
 .Home {
-    height: 100vh;
+    min-height: 100vh;
     display : flex;
     align-items : center;
+    background-color: rgb(40,40,40);
+    /* color: rgb(244,186,25); */
+    color: rgb(255, 255, 255);
+}
+
+.Name {
+    font-size: calc(7px + 5vmin)
 }
 
 .Intro {
@@ -16,13 +23,28 @@
 
 .DoubleIndented {
     padding-left: calc(20px + 10vmin);
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
-.IntroLink {
+.ProfessionalContacts {
+    font-size: calc(2px + 1.8vmin);
+}
+
+.IntroLink, .YoYoLink {
     text-decoration: none; 
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .IntroLink:hover {
     text-decoration: underline;
+    color: rgb(0, 0, 0);
+    background-color: rgb(12,129,250);
 }
+
+.YoYoLink:hover {
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+

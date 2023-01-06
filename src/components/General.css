@@ -1,0 +1,26 @@
+.Tag, .Bracket {
+  display: inline-block;
+}
+
+.Tag {
+  color: rgb(12,129,250);
+}
+
+.Bracket {
+  color: rgb(245,231,2);
+}
+
+.Nav {
+  font-size: calc(2px + 1.5vmin);
+}
+
+.NavButton {
+  color: rgb(255, 255, 255);
+  border-style: none;
+  display: inline-block;
+}
+
+.NavButton:hover {
+  color: rgb(0, 94, 255);
+  background-color: rgb(60, 250, 12);
+}
