@@ -12,19 +12,19 @@ interface HomeProps {
 const Home: React.FC<HomeProps> = ({visibilityIndex, setVisibilityIndex}) => {
   console.log(visibilityIndex)
   return (
-    <div className="Home">
+    <div className="Main">
       <div className="Intro">
         <h1 className="Bracket">{"{"}</h1>
         <div className="Indented">
           <h1 className="Name"><div className="Tag">Name</div>:&nbsp;"Ray Li",</h1>
-          <h1><div className="Tag">Hobby</div>:&nbsp;<a className="YoYoLink" href="https://github.com/RayRuizheLi" target="_blank">"Yo-Yo&#129664;",</a></h1>
+          <h1><div className="Tag">Hobby</div>:&nbsp;<a className="YoYoLink" href="https://www.instagram.com/rayli.yoyo/" target="_blank">"Yo-Yo&#129664;",</a></h1>
           <div className="ProfessionalContacts">
             <h1><div className="Tag">Links</div>:&nbsp;<div className="Bracket">{"["}</div></h1> 
             <h1 className="DoubleIndented">
                 <a className="IntroLink" href="https://github.com/RayRuizheLi" target="_blank">"Github"</a>,&nbsp;
                 <a className="IntroLink" href="https://www.linkedin.com/in/ray-ruizhe-li/" target="_blank">"LinkedIn"</a>,&nbsp;
                 <a className="IntroLink" href="https://www.instagram.com/rayli.yoyo/" target="_blank">"Instagram"</a>,&nbsp;
-                <a className="IntroLink" href="https://drive.google.com/file/d/15tW1PnQqV6W-DUKXL8geD2DosWdbGL6K/view?usp=share_link" target="_blank">"Resume"</a>
+                <a className="IntroLink" href="https://drive.google.com/file/d/1dUUWRma9zl0v7b0oTRe_8Fyuz8-kQXT3/view?usp=sharing" target="_blank">"Resume"</a>
             </h1>
             <h1 className="Bracket">{"]"}</h1>
           </div>

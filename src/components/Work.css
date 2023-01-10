@@ -1,0 +1,6 @@
+.Work {
+  font-size: calc(2px + 1vmin);
+  text-align: left;
+  vertical-align: bottom;
+  max-width: 35%;
+}

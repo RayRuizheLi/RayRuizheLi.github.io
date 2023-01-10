@@ -16,6 +16,7 @@
 
 .NavButton {
   color: rgb(255, 255, 255);
+  background-color: rgb(226, 0, 0);
   border-style: none;
   display: inline-block;
 }
@@ -23,4 +24,16 @@
 .NavButton:hover {
   color: rgb(0, 94, 255);
   background-color: rgb(60, 250, 12);
+}
+
+.Main {
+  min-height: 100vh;
+  display : flex;
+  align-items : center;
+  background-color: rgb(40,40,40);
+  color: rgb(255, 255, 255);
+}
+
+.Work {
+  padding-left: calc(10px + 5vmin);
 }

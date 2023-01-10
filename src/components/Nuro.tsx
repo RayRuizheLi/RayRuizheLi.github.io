@@ -1,37 +1,40 @@
 import React from 'react';
-import './Home.css';
+import './General.css';
+import './Nuro.css';
+import './Work.css'
 
 interface HomeProps {
   visibilityIndex: number,
   setVisibilityIndex: (arg: number) => void
 }
 
-const techStack = "Golang, MySQL, GRPC, Google Cloud, Prometheus, LogDNA"
-const summary = "Designed and deployed the scheduled order capacity planner for the Nuro autonomous delivery robot."
+const techStack = "Golang, MySQL, gRPC, Google Cloud Platform"
+const summary = "Designed and implemented a scheduled capacity planner to handle autonomous vehicle deliveries as Nuro scales to multi-city deployments."
 
 const Nuro: React.FC<HomeProps> = ({visibilityIndex, setVisibilityIndex}) => {
   console.log(visibilityIndex)
   return (
-    <div className="Home">
-      <div className="Intro">
-        <h1>{"{"}</h1>
-        <h1 className="Indented">"Company":&nbsp;"Nuro",</h1>
-        <h1 className="Indented">"Team":&nbsp;"Commercialization",</h1>
-        <h1 className="Indented">"Title":&nbsp;"Software Developer Intern",</h1>
-        <h1 className="Indented">"Tech Stack":&nbsp;{"["}</h1>
-        <h1 className="DoubleIndented">{techStack}</h1>
-        <h1 className="Indented">{"]"}</h1>
-        <h1 className="Indented">"Summary":&nbsp;"One line summary",</h1>
-        <h1 className="Indented">"Details":&nbsp;"One line summary",</h1>
-        <h1 className="Indented">"Nav":&nbsp;{"["}</h1>
+    <div className="Main">
+      <div className="Work">
+        <h1><div className="Bracket">{"{"}</div></h1>
+        <h1 className="Indented"><div className="Tag">Company</div>:&nbsp;"Nuro",</h1>
+        <h1 className="Indented"><div className="Tag">Team</div>:&nbsp;"Commercialization",</h1>
+        <h1 className="Indented"><div className="Tag">Title</div>:&nbsp;"Software Developer Intern",</h1>
+        <h1 className="Indented"><div className="Tag">Tech Stack</div>:&nbsp;<div className="Bracket">{"["}</div></h1>
+        <h1 className="DoubleIndented">"{techStack}"</h1>
+        <h1 className="Indented"><div className="Bracket">{"]"}</div></h1>
+        <h1 className="Indented"><div className="Tag">Summary</div>:&nbsp;&nbsp;<div className="Bracket">{"["}</div></h1>
+        <h1 className="DoubleIndented">"{summary}"</h1>
+        <h1 className="Indented"><div className="Bracket">{"]"}</div></h1>
+        <h1 className="Indented"><div className="Tag">Nav</div>:&nbsp;<div className="Bracket">{"["}</div></h1>
         <div className="DoubleIndented">
           <h1 className="NavButton" onClick={() => {
-            setVisibilityIndex(1)}
+            setVisibilityIndex(0)}
             }>
               Intro
           </h1>
         </div>
-        <h2 className="Indented">{"]"}</h2>
+        <h2 className="Indented"><div className="Bracket">{"]"}</div></h2>
         <h1>{"}"}</h1>
       </div>
     </div>

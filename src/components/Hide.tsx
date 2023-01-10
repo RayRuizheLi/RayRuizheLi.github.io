@@ -11,19 +11,19 @@ function Header() {
   return (
    <div id="container">
      {
-        // visibilityIndex == 0 
-        //  && 
-       <div id="hide">
-            <Home visibilityIndex={visibilityIndex} setVisibilityIndex={setVisibilityIndex}/>
-       </div>
+        visibilityIndex == 0 
+         && 
+        <div id="hide">
+              <Home visibilityIndex={visibilityIndex} setVisibilityIndex={setVisibilityIndex}/>
+        </div>
       }
-      {/* {
+      {
         visibilityIndex == 1 
          && 
         <div id="hide">
               <Nuro visibilityIndex={visibilityIndex} setVisibilityIndex={setVisibilityIndex}/>
         </div>
-      } */}
+      }
     {/* <div id="height">
       <b>debug height: {height}</b> 
     </div> */}
