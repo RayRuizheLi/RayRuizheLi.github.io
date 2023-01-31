@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.f0d9871d.css",
-    "main.js": "/static/js/main.91da5eff.js",
+    "main.css": "/static/css/main.af881345.css",
+    "main.js": "/static/js/main.dfd99777.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
+    "static/media/uber-nurobot.jpg": "/static/media/uber-nurobot.f1e08805cd3c2ac5b288.jpg",
+    "static/media/chipotle.png": "/static/media/chipotle.139d44d79caa7ced7988.png",
+    "static/media/uber.png": "/static/media/uber.51acb34fdaf9250c83d7.png",
+    "static/media/walmart.png": "/static/media/walmart.744238fe8eeeae08051f.png",
+    "static/media/kroger.png": "/static/media/kroger.7518148717d4841c34e4.png",
+    "static/media/dominos.png": "/static/media/dominos.0b731e2e036f2c3c446b.png",
+    "static/media/fedex.png": "/static/media/fedex.da20a5d4c138bde1d183.png",
+    "static/media/nuro-logo.avif": "/static/media/nuro-logo.24575e0346fa0a126310.avif",
     "index.html": "/index.html",
-    "main.f0d9871d.css.map": "/static/css/main.f0d9871d.css.map",
-    "main.91da5eff.js.map": "/static/js/main.91da5eff.js.map",
+    "main.af881345.css.map": "/static/css/main.af881345.css.map",
+    "main.dfd99777.js.map": "/static/js/main.dfd99777.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0d9871d.css",
-    "static/js/main.91da5eff.js"
+    "static/css/main.af881345.css",
+    "static/js/main.dfd99777.js"
   ]
 }
