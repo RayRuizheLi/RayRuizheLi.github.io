@@ -37,3 +37,12 @@
 .Work {
   padding-left: calc(10px + 5vmin);
 }
+
+.CompanyGraphics {
+  align-items : left;
+  max-width: 50%;
+}
+
+.Logo {
+  padding: calc(2vmin);
+}

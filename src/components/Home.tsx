@@ -10,7 +10,6 @@ interface HomeProps {
 
 
 const Home: React.FC<HomeProps> = ({visibilityIndex, setVisibilityIndex}) => {
-  console.log(visibilityIndex)
   return (
     <div className="Main">
       <div className="Intro">
