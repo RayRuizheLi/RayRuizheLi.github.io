@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.af881345.css",
-    "main.js": "/static/js/main.dfd99777.js",
+    "main.css": "/static/css/main.ad167677.css",
+    "main.js": "/static/js/main.33cb4418.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/uber-nurobot.jpg": "/static/media/uber-nurobot.f1e08805cd3c2ac5b288.jpg",
+    "static/media/rippling-products.png": "/static/media/rippling-products.054b5e2a0f551bee3c98.png",
     "static/media/chipotle.png": "/static/media/chipotle.139d44d79caa7ced7988.png",
+    "static/media/rippling-logo-name.png": "/static/media/rippling-logo-name.14daff5e1a3c0e55b8d7.png",
     "static/media/uber.png": "/static/media/uber.51acb34fdaf9250c83d7.png",
     "static/media/walmart.png": "/static/media/walmart.744238fe8eeeae08051f.png",
+    "static/media/pagerduty-customers.png": "/static/media/pagerduty-customers.dbbe4dda5a38da82fa05.png",
     "static/media/kroger.png": "/static/media/kroger.7518148717d4841c34e4.png",
     "static/media/dominos.png": "/static/media/dominos.0b731e2e036f2c3c446b.png",
     "static/media/fedex.png": "/static/media/fedex.da20a5d4c138bde1d183.png",
     "static/media/nuro-logo.avif": "/static/media/nuro-logo.24575e0346fa0a126310.avif",
     "index.html": "/index.html",
-    "main.af881345.css.map": "/static/css/main.af881345.css.map",
-    "main.dfd99777.js.map": "/static/js/main.dfd99777.js.map",
+    "main.ad167677.css.map": "/static/css/main.ad167677.css.map",
+    "main.33cb4418.js.map": "/static/js/main.33cb4418.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af881345.css",
-    "static/js/main.dfd99777.js"
+    "static/css/main.ad167677.css",
+    "static/js/main.33cb4418.js"
   ]
 }
