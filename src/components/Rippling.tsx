@@ -45,7 +45,7 @@ const Rippling: React.FC<HomeProps> = ({visibilityIndex, setVisibilityIndex}) =>
           </h1>
         </div>
         <h2 className="Indented"><div className="Bracket">{"]"}</div></h2>
-        <h1>{"}"}</h1>
+        <h1 className="Bracket">{"}"}</h1>
       </div>
       <RipplingGraphics/>
     </div>

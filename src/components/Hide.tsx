@@ -4,9 +4,11 @@ import Home from './Home';
 import Nuro from './Nuro';
 import Rippling from './Rippling';
 import PagerDuty from './PagerDuty';
+import OANDA from './OANDA';
+import OtherJobs from './OtherJobs';
 
 function Header() {
-  const MAX_INDEX = 3;
+  const MAX_INDEX = 5;
   const MIN_INDEX = 0;
   const [visibilityIndex, setVisibilityIndex] = useState(MIN_INDEX);
 
@@ -48,6 +50,20 @@ function Header() {
          && 
         <div id="hide">
               <PagerDuty visibilityIndex={visibilityIndex} setVisibilityIndex={updateVisibilityIndex}/>
+        </div>
+      }
+      {
+        visibilityIndex == 4
+         && 
+        <div id="hide">
+              <OANDA visibilityIndex={visibilityIndex} setVisibilityIndex={updateVisibilityIndex}/>
+        </div>
+      }
+      {
+        visibilityIndex == 5
+         && 
+        <div id="hide">
+              <OtherJobs visibilityIndex={visibilityIndex} setVisibilityIndex={updateVisibilityIndex}/>
         </div>
       }
     {/* <div id="height">

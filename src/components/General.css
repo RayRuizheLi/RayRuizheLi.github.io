@@ -16,7 +16,6 @@
 
 .NavButton {
   color: rgb(255, 255, 255);
-  background-color: rgba(67, 157, 22, 0.172);
   border-style: none;
   display: inline-block;
   margin-left: calc(2px + 1.5vmin);
@@ -24,8 +23,9 @@
 }
 
 .NavButton:hover {
-  color: rgb(0, 94, 255);
-  background-color: rgb(60, 250, 12);
+  color: rgb(255, 0, 140);
+  background-color: rgb(255, 255, 255);
+  text-decoration: underline;
 }
 
 .Main {
