@@ -1,0 +1,5 @@
+Next steps: 
+
+* Modify the other jobs so that it is consists of multiple separate components 
+* Put them on a final page 
+* Make some cool effects that are not too extra
