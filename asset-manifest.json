@@ -1,26 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.ad167677.css",
-    "main.js": "/static/js/main.33cb4418.js",
+    "main.css": "/static/css/main.36e9d0d1.css",
+    "main.js": "/static/js/main.27a0dc93.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/uber-nurobot.jpg": "/static/media/uber-nurobot.f1e08805cd3c2ac5b288.jpg",
     "static/media/rippling-products.png": "/static/media/rippling-products.054b5e2a0f551bee3c98.png",
+    "static/media/AuvikNetworks-product.png": "/static/media/AuvikNetworks-product.bbb5e0253c58c5501282.png",
     "static/media/chipotle.png": "/static/media/chipotle.139d44d79caa7ced7988.png",
+    "static/media/OANDA-trading.png": "/static/media/OANDA-trading.5acd2a63189598dee239.png",
+    "static/media/UniversityOfWaterloo-logo.png": "/static/media/UniversityOfWaterloo-logo.4f899ab4e8198a3ba480.png",
+    "static/media/UniversityOfWaterloo-banner.jpg": "/static/media/UniversityOfWaterloo-banner.f5211a3e726605389260.jpg",
     "static/media/rippling-logo-name.png": "/static/media/rippling-logo-name.14daff5e1a3c0e55b8d7.png",
+    "static/media/OANDA-partners.png": "/static/media/OANDA-partners.bd20275d8085cc2a908b.png",
     "static/media/uber.png": "/static/media/uber.51acb34fdaf9250c83d7.png",
     "static/media/walmart.png": "/static/media/walmart.744238fe8eeeae08051f.png",
     "static/media/pagerduty-customers.png": "/static/media/pagerduty-customers.dbbe4dda5a38da82fa05.png",
+    "static/media/IntelliCulture-products.png": "/static/media/IntelliCulture-products.5ec143670657bd84f539.png",
+    "static/media/Intelliculture-banner.png": "/static/media/Intelliculture-banner.439576fd5c957b42e1fe.png",
     "static/media/kroger.png": "/static/media/kroger.7518148717d4841c34e4.png",
+    "static/media/OANDA-logo.jpg": "/static/media/OANDA-logo.dc44891fefc51d197bfb.jpg",
     "static/media/dominos.png": "/static/media/dominos.0b731e2e036f2c3c446b.png",
+    "static/media/AuvikNetworks-logo.png": "/static/media/AuvikNetworks-logo.34e3541855e626ae655b.png",
     "static/media/fedex.png": "/static/media/fedex.da20a5d4c138bde1d183.png",
     "static/media/nuro-logo.avif": "/static/media/nuro-logo.24575e0346fa0a126310.avif",
     "index.html": "/index.html",
-    "main.ad167677.css.map": "/static/css/main.ad167677.css.map",
-    "main.33cb4418.js.map": "/static/js/main.33cb4418.js.map",
+    "main.36e9d0d1.css.map": "/static/css/main.36e9d0d1.css.map",
+    "main.27a0dc93.js.map": "/static/js/main.27a0dc93.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad167677.css",
-    "static/js/main.33cb4418.js"
+    "static/css/main.36e9d0d1.css",
+    "static/js/main.27a0dc93.js"
   ]
 }
