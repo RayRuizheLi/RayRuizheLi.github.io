@@ -17,7 +17,7 @@ const OANDA: React.FC<HomeProps> = ({visibilityIndex, setVisibilityIndex}) => {
     <div className="Main">
       <div className="Work">
         <h1><div className="Bracket">{"{"}</div></h1>
-        <h1 className="Indented"><div className="Tag">Company</div>:&nbsp;<a className="CompanyLink" href="https://www.oanda.com/" target="_blank">"PagerDuty"</a>,</h1>
+        <h1 className="Indented"><div className="Tag">Company</div>:&nbsp;<a className="CompanyLink" href="https://www.oanda.com/" target="_blank">"OANDA"</a>,</h1>
         <h1 className="Indented"><div className="Tag">Team</div>:&nbsp;"Pricing Team",</h1>
         <h1 className="Indented"><div className="Tag">Title</div>:&nbsp;"Backend Software Developer Intern",</h1>
         <h1 className="Indented"><div className="Tag">Tech Stack</div>:&nbsp;<div className="Bracket">{"["}</div></h1>
