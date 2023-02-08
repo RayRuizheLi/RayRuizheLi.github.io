@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.36e9d0d1.css",
-    "main.js": "/static/js/main.27a0dc93.js",
+    "main.js": "/static/js/main.02a4fc11.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/uber-nurobot.jpg": "/static/media/uber-nurobot.f1e08805cd3c2ac5b288.jpg",
     "static/media/rippling-products.png": "/static/media/rippling-products.054b5e2a0f551bee3c98.png",
@@ -25,11 +25,11 @@
     "static/media/nuro-logo.avif": "/static/media/nuro-logo.24575e0346fa0a126310.avif",
     "index.html": "/index.html",
     "main.36e9d0d1.css.map": "/static/css/main.36e9d0d1.css.map",
-    "main.27a0dc93.js.map": "/static/js/main.27a0dc93.js.map",
+    "main.02a4fc11.js.map": "/static/js/main.02a4fc11.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.36e9d0d1.css",
-    "static/js/main.27a0dc93.js"
+    "static/js/main.02a4fc11.js"
   ]
 }
