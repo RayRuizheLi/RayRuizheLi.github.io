@@ -5,10 +5,12 @@ import Nuro from './Nuro';
 import Rippling from './Rippling';
 import PagerDuty from './PagerDuty';
 import OANDA from './OANDA';
-import OtherJobs from './OtherJobs';
+import UWJob from './UWJob';
+import AuvikNetworks from './AuvikNetworks';
+import IntelliCulture from './IntelliCulture';
 
 function Header() {
-  const MAX_INDEX = 5;
+  const MAX_INDEX = 7;
   const MIN_INDEX = 0;
   const [visibilityIndex, setVisibilityIndex] = useState(MIN_INDEX);
 
@@ -63,7 +65,21 @@ function Header() {
         visibilityIndex == 5
          && 
         <div id="hide">
-              <OtherJobs visibilityIndex={visibilityIndex} setVisibilityIndex={updateVisibilityIndex}/>
+              <UWJob visibilityIndex={visibilityIndex} setVisibilityIndex={updateVisibilityIndex}/>
+        </div>
+      }
+      {
+        visibilityIndex == 6
+         && 
+        <div id="hide">
+              <AuvikNetworks visibilityIndex={visibilityIndex} setVisibilityIndex={updateVisibilityIndex}/>
+        </div>
+      }
+      {
+        visibilityIndex == 7
+         && 
+        <div id="hide">
+              <IntelliCulture visibilityIndex={visibilityIndex} setVisibilityIndex={updateVisibilityIndex}/>
         </div>
       }
     {/* <div id="height">
