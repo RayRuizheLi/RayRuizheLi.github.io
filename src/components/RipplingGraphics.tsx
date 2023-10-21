@@ -2,7 +2,7 @@ import React from 'react';
 import './General.css';
 import './NuroGraphics.css'
 
-import RipplingLogoWithName from './images/Rippling/rippling-logo-name.png'
+import RipplingLogoWithName from './images/Rippling/rippling-payroll.jpg'
 import RipplingProducts from './images/Rippling/rippling-products.png'
 
 
