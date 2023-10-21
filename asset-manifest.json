@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b725c64e.css",
-    "main.js": "/static/js/main.308124ec.js",
+    "main.js": "/static/js/main.3e6d67fd.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/uber-nurobot.jpg": "/static/media/uber-nurobot.f1e08805cd3c2ac5b288.jpg",
     "static/media/rippling-products.png": "/static/media/rippling-products.054b5e2a0f551bee3c98.png",
@@ -16,6 +16,7 @@
     "static/media/OANDA-partners.png": "/static/media/OANDA-partners.bd20275d8085cc2a908b.png",
     "static/media/uber.png": "/static/media/uber.51acb34fdaf9250c83d7.png",
     "static/media/walmart.png": "/static/media/walmart.744238fe8eeeae08051f.png",
+    "static/media/rippling-payroll.jpg": "/static/media/rippling-payroll.ad15f6fd90b495dec4b1.jpg",
     "static/media/pagerduty-customers.png": "/static/media/pagerduty-customers.dbbe4dda5a38da82fa05.png",
     "static/media/Intelliculture-banner.png": "/static/media/Intelliculture-banner.439576fd5c957b42e1fe.png",
     "static/media/kroger.png": "/static/media/kroger.7518148717d4841c34e4.png",
@@ -26,11 +27,11 @@
     "static/media/nuro-logo.avif": "/static/media/nuro-logo.24575e0346fa0a126310.avif",
     "index.html": "/index.html",
     "main.b725c64e.css.map": "/static/css/main.b725c64e.css.map",
-    "main.308124ec.js.map": "/static/js/main.308124ec.js.map",
+    "main.3e6d67fd.js.map": "/static/js/main.3e6d67fd.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b725c64e.css",
-    "static/js/main.308124ec.js"
+    "static/js/main.3e6d67fd.js"
   ]
 }
