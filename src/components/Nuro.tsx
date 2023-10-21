@@ -18,6 +18,7 @@ const Nuro: React.FC<HomeProps> = ({visibilityIndex, setVisibilityIndex}) => {
       <div className="Work">
         <h1><div className="Bracket">{"{"}</div></h1>
         <h1 className="Indented"><div className="Tag">Company</div>:&nbsp;<a className="CompanyLink" href="https://www.nuro.ai/" target="_blank">"Nuro"</a>,</h1>
+        <h1 className="Indented"><div className="Tag">Year</div>:&nbsp;"2022",</h1>
         <h1 className="Indented"><div className="Tag">Team</div>:&nbsp;"Commercialization",</h1>
         <h1 className="Indented"><div className="Tag">Title</div>:&nbsp;"Software Developer Intern",</h1>
         <h1 className="Indented"><div className="Tag">Tech Stack</div>:&nbsp;<div className="Bracket">{"["}</div></h1>

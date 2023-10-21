@@ -5,7 +5,6 @@ import './General.css';
 interface HomeProps {
   visibilityIndex: number,
   setVisibilityIndex: (arg: number) => void
-
 }
 
 
@@ -20,10 +19,10 @@ const Home: React.FC<HomeProps> = ({visibilityIndex, setVisibilityIndex}) => {
           <div className="ProfessionalContacts">
             <h1><div className="Tag">Links</div>:&nbsp;<div className="Bracket">{"["}</div></h1> 
             <h1 className="DoubleIndented">
-                <a className="IntroLink" href="https://github.com/RayRuizheLi" target="_blank">"Github"</a>,&nbsp;
+                <a className="IntroLink" href="https://drive.google.com/file/d/1NM5rQ5vtaylm77G4f_VwpPrGE5pNtBGD/view?usp=share_link" target="_blank">"Resume"</a>,&nbsp;
                 <a className="IntroLink" href="https://www.linkedin.com/in/ray-ruizhe-li/" target="_blank">"LinkedIn"</a>,&nbsp;
                 <a className="IntroLink" href="https://www.instagram.com/rayli.yoyo/" target="_blank">"Instagram"</a>,&nbsp;
-                <a className="IntroLink" href="https://drive.google.com/file/d/1dUUWRma9zl0v7b0oTRe_8Fyuz8-kQXT3/view?usp=sharing" target="_blank">"Resume"</a>
+                <a className="IntroLink" href="https://github.com/RayRuizheLi" target="_blank">"Github"</a>
             </h1>
             <h1 className="Bracket">{"]"}</h1>
           </div>

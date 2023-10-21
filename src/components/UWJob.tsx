@@ -18,6 +18,7 @@ const UWJob: React.FC<HomeProps> = ({visibilityIndex, setVisibilityIndex}) => {
       <div className="Work">
         <h1><div className="Bracket">{"{"}</div></h1>
         <h1 className="Indented"><div className="Tag">Company</div>:&nbsp;<a className="CompanyLink" href="https://uwaterloo.ca/" target="_blank">"University of Waterloo"</a>,</h1>
+        <h1 className="Indented"><div className="Tag">Year</div>:&nbsp;"2022",</h1>
         <h1 className="Indented"><div className="Tag">Team</div>:&nbsp;"Path Planning",</h1>
         <h1 className="Indented"><div className="Tag">Title</div>:&nbsp;"Autonomous Driving Researcher",</h1>
         <h1 className="Indented"><div className="Tag">Tech Stack</div>:&nbsp;<div className="Bracket">{"["}</div></h1>

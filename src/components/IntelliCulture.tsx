@@ -17,6 +17,7 @@ const IntelliCulture: React.FC<HomeProps> = ({visibilityIndex, setVisibilityInde
       <div className="Work">
         <h1><div className="Bracket">{"{"}</div></h1>
         <h1 className="Indented"><div className="Tag">Company</div>:&nbsp;<a className="CompanyLink" href="https://www.intelliculture.com/"  target="_blank">"IntelliCulture"</a>,</h1>
+        <h1 className="Indented"><div className="Tag">Year</div>:&nbsp;"2018",</h1>
         <h1 className="Indented"><div className="Tag">Title</div>:&nbsp;"UX Desginer",</h1>
         <h1 className="Indented"><div className="Tag">Summary</div>:&nbsp;&nbsp;<div className="Bracket">{"["}</div></h1>
         <h1 className="DoubleIndented">"{summary}"</h1>
