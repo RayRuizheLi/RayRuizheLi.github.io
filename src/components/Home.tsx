@@ -2,13 +2,14 @@ import React from 'react';
 import './Home.css';
 import './General.css';
 
-interface HomeProps {
+type HomeProps = {
   visibilityIndex: number,
   setVisibilityIndex: (arg: number) => void
 }
 
 
-const Home: React.FC<HomeProps> = ({visibilityIndex, setVisibilityIndex}) => {
+const Home = (homeProps: HomeProps) => {
+  console.log('home page');
   return (
     <div className="Main">
       <div className="Intro">
@@ -31,7 +32,7 @@ const Home: React.FC<HomeProps> = ({visibilityIndex, setVisibilityIndex}) => {
           <h1 className="Indented"><div className="Tag">Nav</div>:&nbsp;<div className="Bracket">{"["}</div></h1>
           <div className="DoubleIndented">
             <h1 className="NavButton" onClick={() => {
-                setVisibilityIndex(1)}
+                homeProps.setVisibilityIndex(1)}
                 }>Work Experience</h1>
           </div>
           <h2 className="Indented"><div className="Bracket">{"]"}</div></h2>

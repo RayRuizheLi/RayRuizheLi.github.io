@@ -14,7 +14,7 @@ function Header() {
   const MAX_INDEX = 8;
   const MIN_INDEX = 0;
   const [visibilityIndex, setVisibilityIndex] = useState(MIN_INDEX);
-
+  
   function updateVisibilityIndex(nextIndex: number) {
     if (nextIndex > MAX_INDEX) {
       setVisibilityIndex(MIN_INDEX)
@@ -24,7 +24,7 @@ function Header() {
       setVisibilityIndex(nextIndex)
     }
   }
-
+  console.log('hide page');
   return (
    <div id="container">
      {
